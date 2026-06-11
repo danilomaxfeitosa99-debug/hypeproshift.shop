@@ -1,123 +1,78 @@
-﻿<!doctype html>
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Inicio | Barbado & Barbado Restaurante Asiatico LTDA</title>
-  <meta name="description" content="Barbado & Barbado Restaurante Asiatico LTDA - Restaurante asiatico. Dados empresariais, politicas e canais de contato.">
-  <style>
-    :root {
-      --accent: #9d2f2f;
-      --accent2: #d7a645;
-      --bg: #f7f7f2;
-      --text: #1e2520;
-      --muted: #5f6b63;
-      --line: #d9ddd4;
-      --card: #ffffff;
-    }
-    * { box-sizing: border-box; }
-    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
-    header { background: var(--card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
-    .wrap { width: min(1100px, calc(100% - 32px)); margin: 0 auto; }
-    .top { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 18px 0; }
-    .brand { display: flex; flex-direction: column; gap: 2px; }
-    .brand strong { font-size: 18px; letter-spacing: 0; }
-    .brand span { color: var(--muted); font-size: 13px; }
-    nav { display: flex; flex-wrap: wrap; gap: 8px; }
-    nav a { color: var(--text); text-decoration: none; padding: 8px 10px; border-radius: 6px; border: 1px solid transparent; font-size: 14px; }
-    nav a.active, nav a:hover { border-color: var(--accent); color: var(--accent); }
-    main { padding: 46px 0; }
-    .hero { display: grid; grid-template-columns: 1.4fr .8fr; gap: 28px; align-items: stretch; }
-    h1 { font-size: clamp(30px, 5vw, 54px); line-height: 1.05; margin: 0 0 18px; letter-spacing: 0; }
-    h2 { font-size: 26px; margin: 0 0 14px; letter-spacing: 0; }
-    h3 { margin: 0 0 8px; }
-    p { margin: 0 0 14px; }
-    .lead { font-size: 18px; color: var(--muted); max-width: 760px; }
-    .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 24px; }
-    .hero .card { border-top: 4px solid var(--accent); }
-    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 22px; }
-    .two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 22px; }
-    .section { margin-top: 34px; }
-    .badge { display: inline-block; background: color-mix(in srgb, var(--accent) 12%, white); color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 32%, white); border-radius: 999px; padding: 6px 10px; font-size: 13px; margin-bottom: 16px; }
-    .btns { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px; }
-    .btn { background: var(--accent); color: white; text-decoration: none; border-radius: 6px; padding: 10px 14px; font-weight: 700; }
-    .btn.secondary { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
-    ul { padding-left: 20px; }
-    li { margin-bottom: 8px; }
-    table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); }
-    th, td { padding: 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
-    footer { border-top: 1px solid var(--line); background: var(--card); padding: 24px 0; color: var(--muted); font-size: 14px; }
-    footer a { color: var(--accent); }
-    .legal { font-size: 14px; color: var(--muted); }
-    @media (max-width: 760px) {
-      .top, .hero, .grid, .two { grid-template-columns: 1fr; display: grid; }
-      nav { width: 100%; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umami Cozinha Asiática - Gastronomia Asiática Contemporânea</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="wrap top">
-      <div class="brand">
-        <strong>Barbado & Barbado Restaurante Asiatico LTDA</strong>
-        <span>Restaurante asiatico | Marilia - SP</span>
-      </div>
-      <nav aria-label="Navegacao principal">
-        <a class="active" href="index.html">Inicio</a>
-<a href="privacy.html">Privacidade</a>
-<a href="terms.html">Termos</a>
-<a href="contact.html">Contato</a>
-      </nav>
-    </div>
-  </header>
-  <main class="wrap">
+    <header>
+        <nav>
+            <div class="container">
+                <a href="https://google.com" class="logo">Umami Cozinha Asiática</a>
+                <ul class="nav-links">
+                    <li><a href="https://google.com">Início</a></li>
+                    <li><a href="https://google.com">Sobre</a></li>
+                    <li><a href="https://google.com">Produtos</a></li>
+                    <li><a href="https://google.com">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
     <section class="hero">
-  <div>
-    <span class="badge">Empresa registrada em Marilia - SP</span>
-    <h1>Culinaria asiatica com operacao clara e atendimento proximo.</h1>
-    <p class="lead">Atuamos no setor de restaurante asiatico, com informacoes comerciais transparentes, canais de contato acessiveis e compromisso com o consumidor.</p>
-    <div class="btns">
-      <a class="btn" href="contact.html">Entrar em contato</a>
-      <a class="btn secondary" href="privacy.html">Ver privacidade</a>
-    </div>
-  </div>
-  <aside class="card">
-    <h2>Dados empresariais</h2>
-    <p><strong>Razao social:</strong> Barbado & Barbado Restaurante Asiatico LTDA</p>
-    <p><strong>CNPJ:</strong> 65.255.660/0001-69</p>
-    <p><strong>Endereco:</strong> Avenida Santo Antonio, 518, Centro, Marilia - SP, CEP 17500-070</p>
-    <p><strong>Setor:</strong> Restaurante asiatico</p>
-  </aside>
-</section>
+        <div class="container">
+            <h1>Umami Cozinha Asiática</h1>
+            <p>Qualidade e confiança para o seu dia a dia.</p>
+            <a href="https://google.com" class="btn">Saiba Mais</a>
+        </div>
+    </section>
 
-<section class="section">
-  <h2>Operacao responsavel</h2>
-  <div class="grid">
-    <div class="card"><h3>Empresa identificada</h3><p>Os dados empresariais ficam visiveis para consulta do consumidor e para comunicacoes oficiais.</p></div>
-    <div class="card"><h3>Comunicacao clara</h3><p>As informacoes comerciais sao apresentadas de forma objetiva, sem promessas absolutas ou alegacoes enganosas.</p></div>
-    <div class="card"><h3>Atendimento ao cliente</h3><p>Os canais de contato devem ser mantidos ativos para duvidas, solicitacoes e exercicio de direitos.</p></div>
-  </div>
-</section>
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Excelência em Gastronomia Asiática Contemporânea</h2>
+                    <p>Nossa empresa se dedica a oferecer o melhor em Gastronomia Asiática Contemporânea, focando sempre na satisfação de nossos clientes e na qualidade superior de nossos serviços.</p>
+                    <p>Com anos de experiência no mercado, buscamos constantemente a inovação e o aprimoramento para atender às suas necessidades com eficiência e profissionalismo.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/about.jpg" alt="Sobre Nós" class="clickable-image">
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="section two">
-  <div class="card">
-    <h2>Conformidade</h2>
-    <p>A empresa busca manter suas paginas, comunicacoes e campanhas alinhadas com as leis brasileiras, direitos do consumidor, LGPD e boas praticas de publicidade digital.</p>
-  </div>
-  <div class="card">
-    <h2>Transparencia</h2>
-    <p>O site informa razao social, CNPJ, endereco, politica de privacidade, termos de uso e contato, facilitando a verificacao da operacao.</p>
-  </div>
-</section>
-  </main>
-  <footer>
-    <div class="wrap">
-      <p><strong>Barbado & Barbado Restaurante Asiatico LTDA</strong> | CNPJ: 65.255.660/0001-69</p>
-      <p>Avenida Santo Antonio, 518, Centro, Marilia - SP, CEP 17500-070</p>
-      <p>Brasil | Portugues (Brasil) | E-mail oficial: informar e-mail oficial da empresa</p>
-      <p><a href="privacy.html">Politica de Privacidade</a> | <a href="terms.html">Termos de Uso</a> | <a href="contact.html">Contato</a></p>
-      <p>Este site apresenta informacoes institucionais da empresa e opera com compromisso de transparencia, protecao de dados, comunicacao responsavel e respeito a legislacao brasileira aplicavel.</p>
-    </div>
-  </footer>
+    <section class="specialties">
+        <div class="container">
+            <h2>Destaques</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="images/dish1.jpg" alt="Destaque 1" class="clickable-image">
+                    <h3>Qualidade Garantida</h3>
+                    <p>Trabalhamos apenas com os melhores fornecedores do mercado.</p>
+                </div>
+                <div class="card">
+                    <img src="images/dish2.jpg" alt="Destaque 2" class="clickable-image">
+                    <h3>Atendimento Especializado</h3>
+                    <p>Nossa equipe está pronta para oferecer o melhor suporte.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacidade</a> | <a href="terms.html">Termos de Uso</a>
+            </div>
+            <p>&copy; 2026 Umami Cozinha Asiática. Todos os direitos reservados.</p>
+            <p><strong>CNPJ: 65.255.660/0001-69</strong></p>
+            <p>Marília - SP</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
